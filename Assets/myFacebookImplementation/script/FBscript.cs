@@ -118,15 +118,17 @@ public class FBscript : MonoBehaviour
         }
         DealWithMenus(FB.IsLoggedIn);
     }
-
+	//share
     public void OnShare()
     {
         FaceBookManager.Instance.Share();
     }
+	//Invite
     public void OnInvite()
     {
         FaceBookManager.Instance.Invite();
     }
+	//ShareWithUsers
     public void OnShareWithUsers()
     {
         FaceBookManager.Instance.ShareWithUsers();
