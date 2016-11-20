@@ -16,7 +16,7 @@ public class friends
 
 public class FaceBookManager : MonoBehaviour
 {
-
+	//singleton
     private static FaceBookManager _instance;
     public static FaceBookManager Instance
     {
